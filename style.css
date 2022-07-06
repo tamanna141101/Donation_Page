@@ -11,6 +11,16 @@
     font-size: 18px;
     border-radius: 5px;
 }
+h2{
+    font-size: 45px;
+    padding: 5px;
+}
+
+p{
+    font-size: 18px;
+    color: rgb(173, 164, 164);
+    
+} 
 
 header{
 
@@ -31,32 +41,124 @@ header{
 }
 .header p{
     color: white;
-    font-size: 18px;
-    padding: 20px;
+    font-size: 16px;
+    padding: 20px 0 20px 0;
 }
 
 /* Donate Today */
 .Donate_today{
     text-align: center;
-    height: auto;
-    padding: 250px;
-    
+   padding: 100px 250px;    
 }
 
 .Donate_today h2{
     font-size: 45px;
+  
 }
 
 .Donate_today p{
     font-size: 18px;
     color: rgb(173, 164, 164);
+    padding: 20px 0 20px 0;
+  
 }
 
-.Donate_today .btn{
+.Donate_today .btn1{
     background-color: rgb(241, 232, 232);
     color:rgb(97, 85, 85);
-    padding:40px;
+    padding: 40px 30px;
     font-size: 30px;
+    margin: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
     
+}
+
+.Donate_today  .defualt{
+    background-color: rgb(248, 214, 227);
+    border: 2px solid rgb(247, 104, 104);
+    color: rgb(247, 104, 104);
+}
+input{
+   padding: 10px 300px;
+    border: none;
+    border-bottom: 1px solid rgb(173, 164, 164);
+    font-size: 18px;
+    text-align: center;
+    margin: 20px;
+   
+}
+
+/* help */
+.plan{
+    text-align: center;
+    padding: 0 150px;
+}
+
+.card{
+    text-align: left;
+    display: flex;
+    
+}
+
+.card img{
+    padding: 40px 10px 0 10px;
+}
+.card h3{
+    padding: 40px 10px 0 10px;
+
+}
+.card p{
+    padding: 40px 10px 40px 10px;
+}
+.food{
+    background-color: rgb(226, 247, 238);  
+    margin: 15px;
+    border-radius: 5px ;
+    width: 30%;
+  }
+
+.shelter{
+    background-color: rgb(247, 238, 238);  
+    margin: 15px;
+    border-radius: 5px ;
+    width: 30%;
+   
+  }
+  .education{
+    background-color: rgb(241, 235, 203);  
+    margin: 15px;
+    border-radius: 5px ;
+    width: 30%;
+  }
+ /* Donate Plan */
+  .depend_donation{
+    padding: 0 150px;
+    text-align: left;
+    display: flex;
+    
+} 
+.depend{
+    width: 57%;
+    margin: 50px;
+}
+
+.depend h3{
+    padding: 40px 10px 0 10px;
+
+}
+.depend p{
+    padding: 40px 10px 40px 10px;
+   
+}
+.img{
+    width: 42%;
+    margin: 50px;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
 }
 
