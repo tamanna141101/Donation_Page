@@ -1,8 +1,10 @@
 *{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
+
 .btn{
-    background-color: palevioletred;
+    background-color: rgb(236, 79, 79);
     color: white;
     border: none;
     padding: 15px;
@@ -13,12 +15,11 @@
 header{
 
     text-align: center;
-    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(donation1.jpg
-    );
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(donation1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-}
+}   
 
 .header{
     padding: 250px;
@@ -32,5 +33,30 @@ header{
     color: white;
     font-size: 18px;
     padding: 20px;
+}
+
+/* Donate Today */
+.Donate_today{
+    text-align: center;
+    height: auto;
+    padding: 250px;
+    
+}
+
+.Donate_today h2{
+    font-size: 45px;
+}
+
+.Donate_today p{
+    font-size: 18px;
+    color: rgb(173, 164, 164);
+}
+
+.Donate_today .btn{
+    background-color: rgb(241, 232, 232);
+    color:rgb(97, 85, 85);
+    padding:40px;
+    font-size: 30px;
+    
 }
 
