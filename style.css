@@ -12,6 +12,11 @@
     border-radius: 5px;
 }
 
+.btn:hover {
+    color: black;
+    background-color: aqua;
+}
+
 h2 {
     font-size: 40px;
     padding: 5px;
@@ -160,6 +165,9 @@ header {
     height: 100%;
     border-radius: 5px;
 }
+.img:hover img {
+    box-shadow: 10px 10px 10px 10px #888888;
+}
 
 /* about */
 .about_us {
@@ -181,6 +189,10 @@ header {
     border-radius: 10px;
 
 }
+.img2:hover img {
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+
 
 /* update */
 .update {
