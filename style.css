@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
 
-.btn{
+.btn {
     background-color: rgb(236, 79, 79);
     color: white;
     border: none;
@@ -11,200 +11,216 @@
     font-size: 18px;
     border-radius: 5px;
 }
-h2{
+
+h2 {
     font-size: 40px;
     padding: 5px;
 }
 
-p{
+p {
     font-size: 18px;
     color: rgb(173, 164, 164);
     line-height: 150%;
     padding: 20px;
-    
-} 
 
-header{
+}
+
+header {
 
     text-align: center;
-    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(image/donation1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(image/donation1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-}   
+}
 
-.header{
+.header {
     padding: 250px;
 }
 
-.header h1{
+.header h1 {
     font-size: 60px;
-    color: white; 
+    color: white;
 }
 
 
 /* Donate Today */
-.Donate_today{
+.Donate_today {
     text-align: center;
-   padding: 100px 250px;    
+    padding: 100px 250px;
 }
 
 
-.Donate_today .btn1{
+.Donate_today .btn1 {
     background-color: rgb(241, 232, 232);
-    color:rgb(97, 85, 85);
+    color: rgb(97, 85, 85);
     padding: 40px 30px;
     font-size: 30px;
     margin: 10px;
     font-weight: bold;
     border: none;
     border-radius: 5px;
-    
+
 }
 
-.Donate_today  .defualt{
+.Donate_today .defualt {
     background-color: rgb(248, 214, 227);
     border: 2px solid rgb(247, 104, 104);
     color: rgb(247, 104, 104);
 }
-.Donate_today input{
+
+.Donate_today input {
     padding: 10px 300px;
     border: none;
     border-bottom: 1px solid rgb(173, 164, 164);
     font-size: 18px;
     text-align: center;
     margin: 20px;
-   
+
 }
 
 /* help */
-.plan{
+.plan {
     text-align: center;
     padding: 0 150px;
 }
 
-.card{
+.card {
     text-align: left;
     display: flex;
-    
-}
-
-.card img{
-    padding: 40px 10px 0 10px;
-}
-.card h3{
-    padding: 40px 10px 0 10px;
 
 }
-.card p{
+
+.card img {
+    padding: 40px 10px 0 10px;
+}
+
+.card h3 {
+    padding: 40px 10px 0 10px;
+
+}
+
+.card p {
     padding: 40px 10px 40px 10px;
 }
-.food{
-    background-color: rgb(226, 247, 238);  
-    margin: 15px;
-    border-radius: 5px ;
-    width: 30%;
-  }
 
-.shelter{
-    background-color: rgb(247, 238, 238);  
+.food {
+    background-color: rgb(226, 247, 238);
     margin: 15px;
-    border-radius: 5px ;
+    border-radius: 5px;
     width: 30%;
-   
-  }
-  .education{
-    background-color: rgb(241, 235, 203);  
+}
+
+.shelter {
+    background-color: rgb(247, 238, 238);
     margin: 15px;
-    border-radius: 5px ;
+    border-radius: 5px;
     width: 30%;
-  }
- /* Donate Plan and Need */
-  .depend_donation , .need{
+
+}
+
+.education {
+    background-color: rgb(241, 235, 203);
+    margin: 15px;
+    border-radius: 5px;
+    width: 30%;
+}
+
+/* Donate Plan and Need */
+.depend_donation,
+.need {
     padding: 0 150px;
     text-align: left;
     display: flex;
-    
-} 
-.text{
+
+}
+
+.text {
     width: 50%;
     margin: 50px;
 }
 
-.text h3{
+.text h3 {
     padding: 40px 10px 0 10px;
 
 }
-.text p{
+
+.text p {
     padding: 40px 10px 40px 10px;
-   
+
 }
-.img{
+
+.img {
     width: 50%;
     margin: 50px;
 }
-.img img{
+
+.img img {
     width: 100%;
     height: 100%;
     border-radius: 5px;
 }
+
 /* about */
-.about_us{
+.about_us {
     text-align: center;
     padding: 20px 250px;
 }
 
-.img2{
+.img2 {
     display: flex;
     list-style: none;
     width: 100vh;
     height: 100%;
-    
+
 }
-.img2 img{
+
+.img2 img {
     margin: 10px;
     width: 40%;
     border-radius: 10px;
 
 }
+
 /* update */
-.update{
+.update {
     text-align: center;
     padding: 20px 250px;
 }
 
-.subscribe{
- 
-  padding: 50px;
-  background-color: rgb(255, 223, 223); 
-  display: flex;
-  border-radius: 10px;
+.subscribe {
+
+    padding: 50px;
+    background-color: rgb(255, 223, 223);
+    display: flex;
+    border-radius: 10px;
 }
 
-.subscribe input{
-    margin: 0 0 0 150px; 
+.subscribe input {
+    margin: 0 0 0 150px;
     width: 70%;
     border: none;
-    background-color:rgb(221, 206, 206); 
+    background-color: rgb(221, 206, 206);
     font-size: 18px;
     padding: 0 0 0 10px;
     border-radius: 5px 0px 0px 5px;
-    
+
 }
-.subscribe .btn{
+
+.subscribe .btn {
     margin: 0 150px 0 0px;
     width: 30%;
     border-radius: 0px 5px 5px 0px;
 }
 
 /* footer */
-footer{
+footer {
     text-align: center;
     background-color: black;
     padding: 20px;
 }
-footer h2{
+
+footer h2 {
     color: rgb(204, 68, 68);
     font-family: 'Rubik Moonrocks', cursive;
 }
-
